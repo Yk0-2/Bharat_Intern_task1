@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website </title>
+    <script src="https://kit.fontawesome.com/369f907643.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    nav {
+        list-style-type: none;
+        background-image: linear-gradient(rgb(14, 14, 82), rgb(20, 83, 155));
+        color: white;
+        font-size: 20px;
+        height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 0px 100px;
+    }
+
+    nav ul li {
+        padding: 10px 30px;
+        list-style-type: none;
+    }
+
+    nav .left {
+        margin-left: 20px;
+        font-size: larger;
+        font-style: italic;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+    .right ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav ul li:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        color: orangered;
+
+
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        margin-top: 10px;
+        height: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .leftm {
+        font-weight: bold;
+        text-shadow: 0.1px 0.1px;
+        color: rgb(14, 14, 82);
+        height: 400px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+
+    }
+
+    .rightm img {
+        height: 300px;
+        width: auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .buttons i {
+        padding: 10px;
+    }
+
+    h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: rgb(14, 14, 82);
+    }
+
+    span {
+
+        font-style: italic;
+        color: orangered;
+        text-decoration: underline;
+
+    }
+
+    .achieve {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: orangered;
+
+
+
+    }
+
+    .school,
+    .undergraduation,
+    .extras {
+        height: 250px;
+        width: 250px;
+        color: whitesmoke;
+        background-image: linear-gradient(rgb(14, 14, 82), orangered);
+        margin: 30px;
+        padding: 20px;
+        box-shadow: 10px 10px rgb(14, 14, 82);
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+    }
+
+    h1 {
+        text-align: left;
+        color: whitesmoke;
+        text-decoration: italic;
+        margin-bottom: 30px;
+        font-style: italic;
+        text-decoration: underline;
+
+
+    }
+
+    .achieve p {
+        font-size: 20px;
+        text-align: left;
+
+    }
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <div class="left">YK</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Work</li>
+                    <li>Experience</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="leftm">
+            <p>Hey There!<br>Myself Yatin<br>I am into <span><br>Web<br>Development</span></p>
+        </div>
+        <div class="rightm"><img src="john.png" alt="img"></div>
+    </div>
+    <h2>My handles</h2><br>
+    <div class="buttons">
+
+        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #01790f;"></i><i class="fa-brands fa-instagram fa-2xl"
+            style="color: #7e1980;"></i><i class="fa-brands fa-x-twitter fa-2xl" style="color: #000000;"></i><i
+            class="fa-brands fa-github fa-2xl" style="color: #000000;"></i><i class="fa-brands fa-facebook fa-2xl"
+            style="color: #1f6df4;"></i>
+
+    </div>
+    <div class="achieve">
+        <div class="school">
+            <h1>Schooling</h1>
+            <p>Did Schooling from BCM School Ludhiana and achieved 95.8% and 96% in Class 10th and Class 12th(PCM).</p>
+        </div>
+        <div class="undergraduation">
+            <h1>Undergraduation</h1>
+            <p>After completion of Class 12th Bachelor of technology course has been opted in the field of Computer
+                Science from Punjabi University Patiala.</p>
+        </div>
+        <div class="extras">
+            <h1>Extras</h1>
+            <p>Candidate is atheletic and good in sports and has achieved distinctions in Sports Atheletic meets. Along
+                with this NCC A certificate is also acquired by the candidate.</p>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
